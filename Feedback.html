@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Feedback | NWU Campus Safety Hub</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="Javascript2.js" defer></script>
+        <script src="Javascript3.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="header-top">
+            <img src="images.png" alt="NWU Logo" width="120">
+            <h1>Feedback and Student Voice</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Safety Services</a></li>
+                    <li><a href="emergency.html">Emergency</a></li>
+                    <li><a href="tips.html">Safety Tips</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    <main>
+    <section>
+        <h2>Share Your Concerns</h2>
+        <p>This page allows students to share safety concerns, suggestions or non-emergency reports.</p>
+    </section>
+    
+    <section>
+        <h2>Student Feedback Form</h2>
+
+    <form>
+        
+      <label for="name">Full Name</label><br>
+      <input type="text" id="name" name="name"><br><br>
+    
+      <label for="email">Student's Email Address</label><br>
+      <input type="email" id="email" name="email"><br><br>
+    
+      <label for="feedback-type">Type of Feedback</label><br>
+      <select id="feedback-type" name="feedback-type"><br><br>
+        <option value="">Select an option</option>
+        <option value="concern">Safety Concern</option>
+        <option value="suggestion">Suggestion</option>
+        <option value="non-emergency">Non-Emergency Report</option>
+    </select>
+    <br><br>
+<div class="container">
+    <label for="message">Your Message</label><br>
+    <textarea id="message" name="message" class="text-input"></textarea><br>
+    </div>
+    <div>
+        <strong> Word count:</strong>
+        <span class="word-count">0</span>
+    </div>
+    <br>
+    <button type="submit">Submit Feedback</button>
+    </form>
+    </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 NWU Campus Safety Hub</p>
+    </footer>
+    <div class="loader"></div>
+</body>
+</html>
